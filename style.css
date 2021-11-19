@@ -1,0 +1,43 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Menlo-Regular.ttf);
+}
+* {
+  font-family: myFirstFont;
+}
+body {
+  background-color: #212225;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+h1, p {
+  color: #758cab;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 635px;
+  height: 195px;
+  margin: 0 auto;
+}
